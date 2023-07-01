@@ -1,0 +1,12 @@
+name: CustomWelcomeMessage
+version: 1.0.0
+main: com.customwelcomemessage.CustomWelcomeMessage
+api-version: 1.13
+author: Tik_Of
+description: Un plugin pour personnaliser le message de bienvenue
+
+commands:
+  ws:
+    description: Reload the welcome message configuration.
+    usage: /<command> reload
+    aliases: [welcomemessage, wm]
