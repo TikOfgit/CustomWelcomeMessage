@@ -39,7 +39,7 @@ public class CustomWelcomeMessage extends JavaPlugin implements Listener, Comman
         }
     }
 
-    @EventHandler
+
     public void onPlayerJoin(PlayerJoinEvent event) {
         FileConfiguration config = this.getConfig();
         String playerName = event.getPlayer().getName();
